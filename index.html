@@ -18,9 +18,6 @@
 </head>
 <body class="center-screen wallpaper">
 </body>
-      <div class="click">
-        <p>Cruel</p>
-    </div>
   <a href="https://t.me/comfedz" target="_blank">Our Telegram</a>
  <a href="https://doxbin.org/user/Revolting" target="_blank'">Our Doxbin</a>
  <a href="https://discord.gg/hoa" target="_blank'">Our Discord</a>
@@ -108,16 +105,4 @@ YM      6  MM   \M\  YM       M MM         MM           MM M     \MMM  MM  YM.
   <source src="/music/in my restless dreams, i see that town.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
-  <script>
-  const clickDiv = document.querySelector('.click');
-  const audio = document.querySelector('audio');
-  clickDiv.addEventListener('click', () => {
-      audio.volume = 0.01; // loud boi
-      audio.play();
-      clickDiv.classList.add('fade-out');
-      clickDiv.addEventListener('animationend', () => {
-          clickDiv.style.display = 'none';
-      });
-  });
-</script>
 </html>
