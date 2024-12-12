@@ -1,80 +1,129 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
 <head>
-  <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Members @ cruel.ink</title>
-
-    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+    <title>Members</title>
 </head>
-<body class="center-screen wallpaper2">
-  <center>
-    <h3>Members @ cruel.ink</h3>
-  <a href="https://cruel.ink/" class="selected">Home</a>
-  <a href="https://cruel.ink/members">Members</a>
-  <a href="https://cruel.ink/hoc">HOC</a>
- </center>
- <pre>
-                     +;X
-                 +;:::::;;;+
-                ;;;;;:;;:::;;+
-               +;;;;+;;;;:::;;+
-              x++++x+;;;;+;;;;;x$
-              +++x&++++++;;;;;++
-             X+++&X+++xx+++++++x
-             +++x$x+++xx+x++x+xX
-            +x+xx$xx++XxxxxxXxX
-          Xx xxxX$xxxxXXXXX$&$ 
-         x  XxxXXXXxXxxXXX$$X
-       xX   XxxxxXXxXX$$$&X$
-     $$    +xxxxxxXXX$$&$Xx <a href="https://cruel.ink/enact">ENACT</a>
-    &    x+XxxxxxxxxxxxxXxxx <a href="https://cruel.ink/gonnaslit">GONNASLIT</a>
-   $    ++xxxxxXXxxxxxxXX&$X$ <a href="https://cruel.ink/toenail">TOENAIL</a>
-  x   +++XXxxxXXxxxxXXX$X$$$$ <a href="https://cruel.ink/katuru">KATURU</a>
- xX ++++XXxxXxxxxxxXX$$XX$&&$ <a href="https://cruel.ink/soul">SOUL</a>
-  x++++XXXXXxxXXXXXX$$XXXX& <a href="https://cruel.ink/xk">XK</a> 
-  ++++xXxXxxxxXXXX$$XxXxxxx 
- +++xxXXxX$$X$$$$$x++xxxxxxx   
- +++xx+Xx$$XXxXXx++++xxxxxXxX
- +++xx$xX$xx+xXXx+++xxxxx+xX
- +++xxXXxx++xXxx+++x+x+xxxxX
-   xxxxxx+++Xxx++++++++x+xxXX
-   xxxx++++xxx++++++++++++xXXX
-  xx++++++xxx+++++++++++++xXXxX 
- xx+++++++xx+++++++++++++++xxXxx$ 
-xxx++++++++++++++++++++++x+xx$Xxx
-xx+++++++++x+++++++++++++x++xX$xxX
-x+++++++++++x++x+++++++++x+++x$XxxX
-++++++++++xx+++x++++++++++++xxX$XX
- xx+++++++xx++++++++++++++++xxx$
-    x++++xxx++++++++++++++x+xxx$
-        ++xx+++++++++x++++x+xXX
-           $x+++++++++++xxxx$
-          &&&$$ $$$XXXX
-          $$$$&  $&&&
-          $$$$   &&&&
-          $$$$   $$$
-          $$$$   $$$
-          XXX   $$$$
-          XXX   $XxXX
-         $XXxxX  $XxxX
-          XxxxxX  XXxXX
-            XxxxXX Xx$$
-              XX$$$
- </pre>
-</body>
-</div><div class="full-cont">
+<style>
+    @import url(
+'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+    body {
+        font-family: Montserrat;
+        text-align: center;
+        color: #ffffff;
+        font-size: 34px;
+        padding-top: 40vh;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    div {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    div:first-of-type {
+        animation: appear 6s infinite;
+    }
+
+    div:last-of-type {
+        animation: reveal 6s infinite;
+    }
+
+    div:last-of-type span {
+        font-size: 33px;
+        color: #ffffff;
+        animation: slide 6s infinite;
+    }
+
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 1;
+        }
+
+        80% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes slide {
+        0% {
+            margin-left: -800px;
+        }
+
+        20% {
+            margin-left: -800px;
+        }
+
+        35% {
+            margin-left: 0px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
+    }
+
+    @keyframes reveal {
+        0% {
+            opacity: 0;
+            width: 0px;
+        }
+
+        20% {
+            opacity: 1;
+            width: 0px;
+        }
+
+        30% {
+            width: 655px;
+        }
+
+        80% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+            width: 655px;
+        }
+    }
+
+    a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+a:first-of-type {
+        animation: appear 13s infinite;
+    }
+
+    a:last-of-type {
+        animation: reveal 6s infinite;
+    }
+</style>
+
+<body>
+    <div>Hello.</div>
+    <div>
+        <span>Cruel.ink is currently being updated</span>
     </div>
-  </div>
-</div>
 </body>
-<audio autoplay loop>
-  <source src="/music/poison.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
+<br>
+<a href="https://discord.gg/arguing" target="_blank">discord.gg/arguing</a>
+
 </html>
